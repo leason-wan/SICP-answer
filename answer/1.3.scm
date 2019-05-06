@@ -1,0 +1,12 @@
+(define (sum a b c)
+  (if (> a b)
+    (if (> b c)
+      (+ a b)
+      (+ a c))
+    (if (> c a)
+      (+ b c)
+      (+ a b))
+  )
+)
+
+(sum 1 4 3)
