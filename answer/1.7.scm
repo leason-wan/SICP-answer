@@ -21,4 +21,4 @@
 (define (sqrt x)
   (sqrt-iter 0.1 1 x))
 
-(sqrt 0.00009)
+(sqrt 4)
